@@ -7,9 +7,12 @@ cd ../workspace-b
 # run script b to print "hello world"
 yarn ts-node index.ts
 
+cd ../workspace-a
 # modify script a to return something other than "hello world"
+vim index.ts
 yarn tsc
 
+cd ../workspace-b
 # script b still outputs "hello world"
 yarn ts-node index.ts
 ```
