@@ -9,7 +9,7 @@ yarn ts-node index.ts
 
 cd ../workspace-a
 # modify script a to return something other than "hello world"
-vim index.ts
+vim src/index.ts
 yarn tsc
 
 cd ../workspace-b
