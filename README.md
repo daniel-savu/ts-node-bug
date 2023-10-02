@@ -1,0 +1,1 @@
+Bare bones repo to reproduce a ts-node bug in yarn workspaces
