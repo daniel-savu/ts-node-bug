@@ -1,0 +1,14 @@
+{
+  "name": "workspace-b",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "build",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "workspace-a": "1.0.0",
+    "ts-node": "^10.9.1"
+  }
+}

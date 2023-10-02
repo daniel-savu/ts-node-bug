@@ -1,0 +1,15 @@
+{
+    "name": "@hi/monorepo",
+    "description": "A yarn workspace of core Hyperlane packages",
+    "version": "0.0.0",
+    "private": true,
+    "workspaces": [
+        "proj/*"
+    ],
+    "dependencies": {
+        "@types/node": "^20.8.1",
+        "ts-node": "^10.9.1",
+        "tsc": "^2.0.4",
+        "typescript": "^5.2.2"
+    }
+}
